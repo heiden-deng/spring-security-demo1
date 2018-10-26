@@ -1,0 +1,6 @@
+# spring-security-demo1
+本文使用springboot+mybatis＋SpringSecurity 实现页面访问的动态权限控制。
+
+
+本文细分角色和权限，并将用户、角色、权限和资源均采用数据库存储，并且自定义滤器，代替原有的FilterSecurityInterceptor过滤器， 
+并分别实现AccessDecisionManager、InvocationSecurityMetadataSourceService和UserDetailsService，并在配置文件中进行相应配置。
